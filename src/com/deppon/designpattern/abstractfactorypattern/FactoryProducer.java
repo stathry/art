@@ -1,7 +1,7 @@
 /**
  * Copyright 2012-2016 Deppon Co., Ltd.
  */
-package com.deppon.designpattern.mutifactorypattern;
+package com.deppon.designpattern.abstractfactorypattern;
 
 /**
  * @author dongdaiming@deppon.com
@@ -14,14 +14,12 @@ public class FactoryProducer implements Factory{
 
 	@Override
 	public EProduct getEProduct(int type) {
-		// TODO Auto-generated method stub
-		return null;
+		return eProductFactory.getEProduct(type);
 	}
 
 	@Override
 	public Color getColor(String code) {
-		// TODO Auto-generated method stub
-		return null;
+		return colorFactory.getColor(code);
 	}
 
 }

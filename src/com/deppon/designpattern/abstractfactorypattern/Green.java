@@ -1,7 +1,7 @@
 /**
  * Copyright 2012-2016 Deppon Co., Ltd.
  */
-package com.deppon.designpattern.mutifactorypattern;
+package com.deppon.designpattern.abstractfactorypattern;
 
 /**
  * @author dongdaiming@deppon.com
