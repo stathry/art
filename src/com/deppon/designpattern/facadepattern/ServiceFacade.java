@@ -3,34 +3,24 @@
  */
 package com.deppon.designpattern.facadepattern;
 
+import javax.annotation.Resource;
+
 /**
  * @author dongdaiming@deppon.com 2016年10月20日
  */
 public class ServiceFacade {
 
+	@Resource
 	private Service1 service1;
+	@Resource
 	private Service2 service2;
 
-	public void m1() {
-		service1.m1();
+	public Service1 getService1() {
+		return service1;
 	}
 
-	public void m2() {
-		service2.m2();
-	}
-
-	public ServiceFacade() {
-		super();
-	}
-
-	/**
-	 * @param service1
-	 * @param service2
-	 */
-	public ServiceFacade(Service1 service1, Service2 service2) {
-		super();
-		this.service1 = service1;
-		this.service2 = service2;
+	public Service2 getService2() {
+		return service2;
 	}
 
 }
