@@ -3,24 +3,15 @@
  */
 package com.deppon.designpattern.proxypattern;
 
+import javax.annotation.Resource;
+
 /**
  * @author dongdaiming@deppon.com 2016年10月20日
  */
 public class ProxyTicketService implements TicketService {
 
+	@Resource
 	private TicketService ticketService;
-
-	/**
-	 * @param ticketService
-	 */
-	public ProxyTicketService(TicketService ticketService) {
-		super();
-		this.ticketService = ticketService;
-	}
-
-	public ProxyTicketService() {
-		super();
-	}
 
 	@Override
 	public void buy() {

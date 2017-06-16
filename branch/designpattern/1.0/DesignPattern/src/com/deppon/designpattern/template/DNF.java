@@ -9,18 +9,23 @@ package com.deppon.designpattern.template;
 public class DNF extends Game {
 
 	@Override
-	public void init() {
-		System.out.println("DNF INIT");
+	public void request() {
+		System.out.println("dnf request");
 	}
 
 	@Override
-	public void play() {
-		System.out.println("DNF PLAY");
+	public void check() {
+		System.out.println("dnf check");
 	}
 
 	@Override
-	public void destory() {
-		System.out.println("DNF DESTORY");
+	public void biz() {
+		System.out.println("dnf biz");
+	}
+
+	@Override
+	public void response() {
+		System.out.println("dnf response");
 	}
 
 }

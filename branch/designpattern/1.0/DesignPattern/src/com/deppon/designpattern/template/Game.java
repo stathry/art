@@ -8,16 +8,19 @@ package com.deppon.designpattern.template;
  */
 public abstract class Game {
 
-	public abstract void init();
+	public abstract void request();
 
-	public abstract void play();
+	public abstract void check();
+	
+	public abstract void biz();
 
-	public abstract void destory();
+	public abstract void response();
 
 	public final void execute() {
-		init();
-		play();
-		destory();
+		request();
+		check();
+		biz();
+		response();
 	}
 
 }
