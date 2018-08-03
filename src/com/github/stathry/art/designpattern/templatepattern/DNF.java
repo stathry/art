@@ -1,7 +1,7 @@
 /**
  * Copyright 2012-2016 Deppon Co., Ltd.
  */
-package com.github.stathry.art.designpattern.template;
+package com.github.stathry.art.designpattern.templatepattern;
 
 /**
  * @author dongdaiming@deppon.com 2016年10月12日

@@ -1,17 +1,17 @@
 /**
  * Copyright 2012-2016 Deppon Co., Ltd.
  */
-package com.github.stathry.art.designpattern.factory;
+package com.github.stathry.art.designpattern.factorypattern;
 
 /**
  * @author dongdaiming@deppon.com
  * 2016年10月11日
  */
-public class MobilePhone implements EProduct {
+public class Pad implements EProduct {
 
 	@Override
 	public void usb() {
-		System.out.println("MobilePhone usb running!");
+		System.out.println("Pad usb running!");
 	}
 
 }

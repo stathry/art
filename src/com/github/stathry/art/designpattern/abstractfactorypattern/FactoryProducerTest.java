@@ -1,9 +1,7 @@
 /**
  * Copyright 2012-2016 Deppon Co., Ltd.
  */
-package com.github.stathry.art.designpattern.abstractfactory;
-
-import static org.junit.Assert.*;
+package com.github.stathry.art.designpattern.abstractfactorypattern;
 
 import org.junit.Test;
 
